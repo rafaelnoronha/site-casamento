@@ -100,6 +100,14 @@
       html.w-mod-js:not(.w-mod-ix) [data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2c1"] {
         opacity: 0;
       }
+
+      .w-layout-grid-4 {
+        grid-row-gap: 50px!important;
+        grid-column-gap: 50px!important;
+        grid-template-columns: 1fr 1fr!important;
+        grid-auto-columns: 1fr;
+        display: grid;
+      }
     }
 
     @media (max-width:767px) and (min-width:480px) {
@@ -152,6 +160,54 @@
       html.w-mod-js:not(.w-mod-ix) [data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2c1"] {
         opacity: 0;
       }
+
+      .w-layout-grid-4 {
+        grid-row-gap: 10px!important;
+        grid-column-gap: 10px!important;
+        grid-template-columns: 1fr!important;
+        grid-auto-columns: 1fr;
+        display: grid;
+      }
+    }
+
+    .w-layout-grid-4 {
+      grid-row-gap: 50px;
+      grid-column-gap: 50px;
+      grid-template-rows: auto auto;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-auto-columns: 1fr;
+      display: grid;
+    }
+
+    .brands-component {
+      grid-template-columns: 1fr;
+    }
+
+    .brand-logo {
+      max-height: none;
+    }
+
+    .presente-casamento {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mt-2 {
+      margin-top: 15px;
+    }
+
+    .w-100 {
+      width: 100%;
+    }
+
+    .presente-casamento .button-group {
+      grid-column-gap: 1rem;
+      grid-row-gap: 1rem;
+      flex-wrap: wrap;
+      align-self: center;
+      align-items: center;
+      display: flex;
     }
   </style>
   <script
@@ -415,58 +471,123 @@
                       cutting-edge tech companies, each collaboration has allowed me to showcase my photography skills
                       in unique and exciting ways.</div>
                   </div> -->
-                  <div class="w-layout-grid logo-list">
-                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b"
-                      data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper"><img
-                        src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg"
-                        loading="lazy" alt="" class="brand-logo" /></div>
-                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b9-f1f69a6b"
-                      data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b9" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a8a_Logoipsum 5.svg"
-                        loading="lazy" alt="" class="brand-logo" /></div>
-                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2bb-f1f69a6b"
-                      data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2bb" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a8a_Logoipsum 5.svg"
-                        loading="lazy" alt="" class="brand-logo" /></div>
-                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2bd-f1f69a6b"
-                      data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2bd" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a89_Logoipsum 3.svg"
-                        loading="lazy" alt="" class="brand-logo" /></div>
-                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2bf-f1f69a6b"
-                      data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2bf" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a89_Logoipsum 3.svg"
-                        loading="lazy" alt="" class="brand-logo" /></div>
-                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2c1-f1f69a6b"
-                      data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2c1" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a8a_Logoipsum 5.svg"
-                        loading="lazy" alt="" class="brand-logo" /></div>
-                  </div>
+                  <div id="itens-lista-presente" class="w-layout-grid-4 logo-list">
+                    <!-- <div class="logo-wrapper presente-casamento">
+                      <img src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg" loading="lazy" alt="" class="brand-logo" />
 
-                  <div class="w-layout-grid logo-list">
-                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b"
-                      data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper"><img
-                        src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg"
-                        loading="lazy" alt="" class="brand-logo" /></div>
-                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b9-f1f69a6b"
+                      <div class="button-group mt-2">
+                        <a href="#Top" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+                          <div class="button-link-wrapper w-100">
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div> -->
+                    <!--<div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b" data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper presente-casamento">
+                      <img src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg" loading="lazy" alt="" class="brand-logo" />
+
+                      <div class="button-group mt-2">
+                        <a href="#Top" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+                          <div class="button-link-wrapper w-100">
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b" data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper presente-casamento">
+                      <img src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg" loading="lazy" alt="" class="brand-logo" />
+
+                      <div class="button-group mt-2">
+                        <a href="#Top" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+                          <div class="button-link-wrapper w-100">
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b" data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper presente-casamento">
+                      <img src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg" loading="lazy" alt="" class="brand-logo" />
+
+                      <div class="button-group mt-2">
+                        <a href="#Top" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+                          <div class="button-link-wrapper w-100">
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b" data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper presente-casamento">
+                      <img src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg" loading="lazy" alt="" class="brand-logo" />
+
+                      <div class="button-group mt-2">
+                        <a href="#Top" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+                          <div class="button-link-wrapper w-100">
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b" data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper presente-casamento">
+                      <img src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg" loading="lazy" alt="" class="brand-logo" />
+
+                      <div class="button-group mt-2">
+                        <a href="#Top" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+                          <div class="button-link-wrapper w-100">
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b" data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper presente-casamento">
+                      <img src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg" loading="lazy" alt="" class="brand-logo" />
+
+                      <div class="button-group mt-2">
+                        <a href="#Top" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+                          <div class="button-link-wrapper w-100">
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b" data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper presente-casamento">
+                      <img src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg" loading="lazy" alt="" class="brand-logo" />
+
+                      <div class="button-group mt-2">
+                        <a href="#Top" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+                          <div class="button-link-wrapper w-100">
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                            <div class="button-text-item text-black">Quero Ajudar</div>
+                          </div>
+                        </a>
+                      </div>
+                    </div> -->
+                    <!-- <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b9-f1f69a6b"
                       data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b9" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a8a_Logoipsum 5.svg"
+                        src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg"
                         loading="lazy" alt="" class="brand-logo" /></div>
                     <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2bb-f1f69a6b"
                       data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2bb" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a8a_Logoipsum 5.svg"
+                        src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg"
                         loading="lazy" alt="" class="brand-logo" /></div>
                     <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2bd-f1f69a6b"
                       data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2bd" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a89_Logoipsum 3.svg"
+                        src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg"
                         loading="lazy" alt="" class="brand-logo" /></div>
                     <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2bf-f1f69a6b"
                       data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2bf" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a89_Logoipsum 3.svg"
+                        src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg"
                         loading="lazy" alt="" class="brand-logo" /></div>
                     <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2c1-f1f69a6b"
                       data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2c1" class="logo-wrapper"><img
-                        src="https://cdn.prod.website-files.com/6494bc4fa950b338f1f69a5e/6494bc4fa950b338f1f69a8a_Logoipsum 5.svg"
-                        loading="lazy" alt="" class="brand-logo" /></div>
+                        src="https://www.lg.com/content/dam/channel/wcms/br/images/lavadoras-de-roupas/cv5012wc4_abwfbrs_essp_br_c/450.jpg"
+                        loading="lazy" alt="" class="brand-logo" /></div> -->
                   </div>
                 </div>
               </div>
@@ -479,8 +600,7 @@
           <div class="container-large">
             <div class="section-padding-large">
               <div class="articles-heading-wrapper">
-                <h2 data-w-id="ae251f58-813a-4bcf-69b9-a9c7c378a117" style="opacity:0" class="heading-h2-custom">article
-                  features</h2>
+                <h2 data-w-id="ae251f58-813a-4bcf-69b9-a9c7c378a117" style="opacity:0" class="heading-h2-custom">Lua de Mel</h2>
                 <div class="arrow-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic"
                     width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
@@ -490,14 +610,14 @@
               <div class="articles-component">
                 <div data-w-id="0b63d1ce-0dd7-a793-9e88-f5d086901992" style="opacity:0" class="article-item">
                   <div class="article-name">
-                    <div class="text-size-large text-allcaps weight-normal">LensCraft Magazine</div>
+                    <div class="text-size-large text-allcaps weight-normal">Almoço Romântico</div>
                   </div>
                   <div id="w-node-_664e34ad-d6a7-f6f1-6de4-eda53590dbeb-f1f69a6b" class="button-group"><a
                       data-w-id="664e34ad-d6a7-f6f1-6de4-eda53590dbec" href="https://webflow.com/" target="_blank"
                       class="button-small is-alternate w-inline-block">
                       <div class="button-link-wrapper">
-                        <div class="button-text-item text-black">Read article</div>
-                        <div class="button-text-item text-black">Read article</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
                       </div>
                       <div data-w-id="664e34ad-d6a7-f6f1-6de4-eda53590dbf2" class="button-arrow w-embed"><svg
                           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -511,14 +631,14 @@
                 </div>
                 <div data-w-id="0b63d1ce-0dd7-a793-9e88-f5d086901998" style="opacity:0" class="article-item">
                   <div class="article-name">
-                    <div class="text-size-large text-allcaps weight-normal">Shutter World</div>
+                    <div class="text-size-large text-allcaps weight-normal">Passeio de Quadriciclo</div>
                   </div>
                   <div id="w-node-c295077d-2ba3-2474-7008-85c3ac05daff-f1f69a6b" class="button-group"><a
                       data-w-id="c295077d-2ba3-2474-7008-85c3ac05db00" href="https://webflow.com/" target="_blank"
                       class="button-small is-alternate w-inline-block">
                       <div class="button-link-wrapper">
-                        <div class="button-text-item text-black">Read article</div>
-                        <div class="button-text-item text-black">Read article</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
                       </div>
                       <div data-w-id="c295077d-2ba3-2474-7008-85c3ac05db06" class="button-arrow w-embed"><svg
                           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -532,14 +652,14 @@
                 </div>
                 <div data-w-id="0b63d1ce-0dd7-a793-9e88-f5d08690199e" style="opacity:0" class="article-item">
                   <div class="article-name">
-                    <div class="text-size-large text-allcaps weight-normal">Beyond the Frame</div>
+                    <div class="text-size-large text-allcaps weight-normal">Jantar a Luz de Velas</div>
                   </div>
                   <div id="w-node-_015382d9-58ea-8825-0edb-2d3a195b0333-f1f69a6b" class="button-group"><a
                       data-w-id="015382d9-58ea-8825-0edb-2d3a195b0334" href="https://webflow.com/" target="_blank"
                       class="button-small is-alternate w-inline-block">
                       <div class="button-link-wrapper">
-                        <div class="button-text-item text-black">Read article</div>
-                        <div class="button-text-item text-black">Read article</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
                       </div>
                       <div data-w-id="015382d9-58ea-8825-0edb-2d3a195b033a" class="button-arrow w-embed"><svg
                           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -553,14 +673,14 @@
                 </div>
                 <div data-w-id="0b63d1ce-0dd7-a793-9e88-f5d0869019a4" style="opacity:0" class="article-item">
                   <div class="article-name">
-                    <div class="text-size-large text-allcaps weight-normal">Lens Legends</div>
+                    <div class="text-size-large text-allcaps weight-normal">Visita à Fazendinha</div>
                   </div>
                   <div id="w-node-ef58bb1d-919c-9648-578e-f6dfff1c963f-f1f69a6b" class="button-group"><a
                       data-w-id="ef58bb1d-919c-9648-578e-f6dfff1c9640" href="https://webflow.com/" target="_blank"
                       class="button-small is-alternate w-inline-block">
                       <div class="button-link-wrapper">
-                        <div class="button-text-item text-black">Read article</div>
-                        <div class="button-text-item text-black">Read article</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
                       </div>
                       <div data-w-id="ef58bb1d-919c-9648-578e-f6dfff1c9646" class="button-arrow w-embed"><svg
                           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -574,14 +694,14 @@
                 </div>
                 <div data-w-id="0b63d1ce-0dd7-a793-9e88-f5d0869019aa" style="opacity:0" class="article-item">
                   <div class="article-name">
-                    <div class="text-size-large text-allcaps weight-normal">Behind the Scenes</div>
+                    <div class="text-size-large text-allcaps weight-normal">Passeio de Cachoeira</div>
                   </div>
                   <div id="w-node-_11507527-9e98-622d-c524-4c6d94c1df39-f1f69a6b" class="button-group"><a
                       data-w-id="11507527-9e98-622d-c524-4c6d94c1df3a" href="https://webflow.com/" target="_blank"
                       class="button-small is-alternate w-inline-block">
                       <div class="button-link-wrapper">
-                        <div class="button-text-item text-black">Read article</div>
-                        <div class="button-text-item text-black">Read article</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
+                        <div class="button-text-item text-black">Quero Ajudar</div>
                       </div>
                       <div data-w-id="11507527-9e98-622d-c524-4c6d94c1df40" class="button-arrow w-embed"><svg
                           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -743,7 +863,7 @@
     crossorigin="anonymous"></script>
   <!-- <script src="https://assets-global.website-files.com/6494bc4fa950b338f1f69a5e/js/webflow.d33ab6dc9.js"
     type="text/javascript"></script> -->
-    <script src="./js/animacoes.js"></script>
+  <script src="./js/lista-presentes.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script>
 
   <script>
@@ -770,7 +890,32 @@
     }
 
     requestAnimationFrame(raf)
+
+    const elListaItensPresente = document.querySelector('#itens-lista-presente')
+
+    listapresentes.forEach(item => {
+      const html = `
+        <div id="w-node-_307393a2-9dc6-7a6f-a74e-6d238b63a2b7-f1f69a6b" data-w-id="307393a2-9dc6-7a6f-a74e-6d238b63a2b7" class="logo-wrapper presente-casamento">
+          <img src="${item.imagem}" loading="lazy" alt="" class="brand-logo" />
+
+          <h6 style="margin-top:10px">${item.nome}</h6>
+
+          <div class="button-group mt-2">
+            <a href="${item.link}" data-w-id="1c454361-19b4-16ff-358f-52bf6af1783d" class="button-small is-alternate w-inline-block">
+              <div class="button-link-wrapper w-100">
+                <div class="button-text-item text-black">Quero Ajudar</div>
+                <div class="button-text-item text-black">Quero Ajudar</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      `
+
+      elListaItensPresente.insertAdjacentHTML('beforeend', html);
+    });
+
   </script>
+  <script src="./js/animacoes.js"></script>
 </body>
 <!-- Mirrored from focal-template.webflow.io/about by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Sep 2025 01:26:16 GMT -->
 
